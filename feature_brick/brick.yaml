@@ -1,0 +1,15 @@
+name: feature_brick
+description: A brick for create features.
+repository: https://github.com/jaumpelicon/movies-flutter/tree/master/bricks/feature_brick
+
+version: 0.1.0+1
+
+environment:
+  mason: ">=0.1.0-dev.47 <0.1.0"
+
+
+vars:
+  name:
+    type: string
+    description: Feature name generate
+    prompt: Qual o nome da sua feature?
