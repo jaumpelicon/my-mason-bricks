@@ -4,9 +4,6 @@ import 'package:dio/dio.dart';
 import 'package:flutter/foundation.dart';
 import 'package:pretty_dio_logger/pretty_dio_logger.dart';
 
-import '../../database/setup/database_provider.dart';
-import '../../support/authentication_session/session_manager.dart';
-import '../interceptors/token_interceptor.dart';
 import 'api_host.dart';
 import 'endpoint.dart';
 
@@ -21,13 +18,6 @@ class ApiProvider {
 
     _dio = dio ?? Dio(baseOptions);
 
-    _dio.interceptors.add(
-      TokenExpiredInterceptor(
-        sessionManager: SessionManager.instance,
-        database: DatabaseProvider.instance,
-      ),
-    );
-
     if (kDebugMode) {
       _dio.interceptors.add(PrettyDioLogger());
     }
@@ -39,7 +29,8 @@ class ApiProvider {
     final requestOptions = Options(
       method: endpoint.method,
       contentType: contentTypeValue,
-      headers: ApiHost.sessionHeaders,
+      // TODO Uncomment when sessionHeaders has be implemented
+      // headers: ApiHost.sessionHeaders,
     );
 
     try {
