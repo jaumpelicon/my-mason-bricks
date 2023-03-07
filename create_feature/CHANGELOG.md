@@ -1,3 +1,3 @@
 # 0.1.0+1
 
-- TODO: Describe initial release.
+- Into first version generate files and protocols, with factory and navigate route.

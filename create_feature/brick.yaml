@@ -1,12 +1,11 @@
-name: feature_brick
+name: create_feature
 description: A brick for create features.
-repository: https://github.com/jaumpelicon/movies-flutter/tree/master/bricks/feature_brick
+repository: https://github.com/jaumpelicon/my-mason-bricks/tree/master/create_feature
 
-version: 0.1.0+1
+version: 0.1.0+2
 
 environment:
   mason: ">=0.1.0-dev.47 <0.1.0"
-
 
 vars:
   name:
