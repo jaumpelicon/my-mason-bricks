@@ -15,4 +15,4 @@ vars:
   has_factory:
     type: boolean
     description: if true generate di
-    prompt: Deseja gerar o arquivo factory?(y/n)
+    prompt: Deseja gerar o arquivo factory?
