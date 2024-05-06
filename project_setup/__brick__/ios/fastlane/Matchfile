@@ -1,0 +1,4 @@
+readonly(true)
+storage_mode("git") # Storage com git, acesse https://docs.fastlane.tools/actions/match/#usage
+username("@itunes.com.br") # Email para acessar o Developer apple (Preferencia sempre mobile@itunes.com.br)
+git_url("") #URL (SSH) do repositorio de certificados

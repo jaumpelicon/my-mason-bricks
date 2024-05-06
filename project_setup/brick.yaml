@@ -1,14 +1,14 @@
 name: project_setup
-description: A brick for create project flutter setup.
+description: A brick for make project flutter setup.
 repository: https://github.com/jaumpelicon/my-mason-bricks/tree/master/project_setup
 
-version: 0.1.0+1
+version: 1.0.0+2
 
 environment:
   mason: ">=0.1.0-dev.47 <0.1.0"
 
 vars:
-  project_name:
-    type: string
-    description: Project Name
-    prompt: What is your project name?
+  with_go_router:
+    type: boolean
+    description: if true generate router using with_go_router
+    prompt: Deseja usar o go_router para a navegação?
