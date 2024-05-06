@@ -13,7 +13,7 @@ Contém as seguintes configurações:
  - Uma tela inicial de exemplo
  - Fastlane
 
-## Como usar esta brick?
+## Como usar esta brick ?
 
 1. Desative as opções web, windows e linux caso o projeto seja apenas mobile usando:
 ```bash
