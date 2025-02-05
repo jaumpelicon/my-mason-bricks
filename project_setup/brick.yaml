@@ -2,10 +2,10 @@ name: project_setup
 description: A brick for make project flutter setup.
 repository: https://github.com/jaumpelicon/my-mason-bricks/tree/master/project_setup
 
-version: 1.0.0+2
+version: 1.0.0+3
 
 environment:
-  mason: ">=0.1.0-dev.47 <0.1.0"
+  mason: ">=0.1.0-dev.47 <0.1.2"
 
 vars:
   with_go_router:
